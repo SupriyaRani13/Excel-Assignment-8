@@ -1,0 +1,128 @@
+Excel Assignment - 8
+
+1. What do you mean by AutoComplete feature in Excel and what are the
+benefits of using this feature?
+
+Sol: The AutoComplete feature in Excel is a useful tool that automatically suggests and completes data entries based on existing entries in the same 
+     column. When you start typing a value in a cell, Excel analyzes the data in the column and offers suggestions based on the existing values.
+
+The benefits of using the AutoComplete:-
+
+1.Time-saving: AutoComplete helps to speed up data entry by suggesting the most likely entries based on previously entered data.
+
+2.Accuracy: By suggesting possible entries, AutoComplete reduces the chances of typographical errors and ensures consistency in data entry.
+
+3.Convenience: With AutoComplete, you don't have to remember or search for previously entered values manually.
+
+4.Increased productivity: The time saved by using AutoComplete allows you to focus on other important tasks. 
+
+
+2.Explain working with workbooks and working with cells.
+
+Sol: In Excel, a workbook refers to the file that contains your spreadsheets or worksheets. It is the primary document where you store and organize your data.
+
+  1.Creating a Workbook: To create a new workbook, you can either click on the "File" menu and select "New" or use the shortcut Ctrl + N.
+    Excel will open a new blank workbook for you to work with.
+
+ 2.Saving a Workbook: To save a workbook, click on the "File" menu and select "Save" or use the shortcut Ctrl + S.
+
+ 3.Opening an Existing Workbook: To open an existing workbook, click on the "File" menu and select "Open" or use the shortcut Ctrl + O. 
+
+
+3.What is fill handle in Excel and why do we use it?
+
+Sol: The fill handle in Excel is a small square at the bottom-right corner of a selected cell or a range of cells. 
+     It is a powerful tool that allows you to quickly and easily fill a series, pattern, or formula across multiple cells.
+
+a)Filling a Series: The fill handle is commonly used to fill a series of numbers, dates, or other data patterns. 
+
+b)Copying Formulas: When you have a formula in a cell and you want to apply it to a range of adjacent cells, you can use the fill handle
+
+c)Creating Patterns: The fill handle can also be used to create patterns in cells. For instance, if you have a pattern of alternating colors or
+  a specific   sequence, you can enter the initial values and then drag the fill handle to extend the pattern across the desired range.
+
+4.Give some examples of using the fill handle.
+
+Sol: some examples of using the fill handle:-
+
+a)Filling a Series of Numbers: Enter the number 1 in a cell, click and drag the fill handle down to fill the subsequent cells with a series
+  of numbers (2, 3, 4, and so on).
+
+b)Filling a Series of Dates: Enter a specific date in a cell, click and drag the fill handle down or across to fill the subsequent cells with a 
+  series of dates (e.g., daily, weekly, monthly, etc., based on the pattern you establish).
+
+c)Filling a Custom Series: Enter a sequence of values in a cell, such as "Monday" or "January," and click and drag the fill handle to extend the
+  series to subsequent cells. Excel will recognize the pattern and continue the series accordingly (e.g., "Tuesday," "Wednesday," and so on).
+
+d)Filling with a Specific Pattern: Enter a pattern in a few cells (e.g., "Red," "Blue," "Green") and use the fill handle to drag and extend the 
+  pattern to additional cells. Excel will repeat the pattern as you drag the fill handle.
+
+
+5.Describe flash fill and what the different ways to access the flash fill are.
+
+Sol: Flash Fill is a powerful feature in Excel that automatically extracts, combines, or formats data based on a pattern it recognizes. 
+     It eliminates the need for complex formulas or manual data manipulation. Flash Fill analyzes the data you input and suggests
+     transformations or patterns it detects, allowing you to fill adjacent cells quickly. 
+
+1.How Flash Fill Works:
+  When you start typing a value in a column adjacent to existing data, Excel examines the pattern of the data and suggests a fill operation using 
+  Flash Fill. If the suggested transformation is accurate, you can press Enter or use the Flash Fill command to automatically populate the adjacent
+  cells with the desired values.
+
+2.Accessing Flash Fill:
+
+a. Automatic Flash Fill: By default, Excel attempts to apply Flash Fill automatically as you type, recognizing patterns in adjacent cells. If Excel detects b pattern and provides a preview, you can press Enter to accept the suggestion or continue typing to override it.
+
+c. Ctrl + E Shortcut: You can use the keyboard shortcut Ctrl + E to manually trigger Flash Fill. 
+
+
+6.Extract first name and last name from the mail id and then from the
+address column, extract the city, state, and pin code using the flash fill.
+Given below is an example of the columns you have to create. Paste the
+screenshot of what you have created using the flash fill command.
+Example: Mail Id, Address, First name, Last name, State, City, Pincode
+
+
+Sol: Assuming you have a column labeled Mail Id with email addresses and a column labeled Address with complete addresses,
+     follow these steps to extract the first name and last name from the email addresses:-
+
+     In the First name column, enter the first name for the first row manually.
+     In the Last name  column, enter the last name for the first row manually.
+     Excel will analyze the pattern based on the entered data.
+Click on the first cell in the "First name" column, and you should see a suggested transformation.
+
+If the suggested transformation is correct, press Enter or use the Flash Fill command to automatically populate the remaining cells in the "First name" column.
+
+Repeat the same process for the Last name column.
+To extract the city, state, and pin code from the Address column, follow these steps:-
+
+Manually enter the desired city name in the first row of the "City" column.
+Manually enter the desired state name in the first row of the "State" column.
+Manually enter the desired pin code in the first row of the "Pincode" column.
+Click on the first cell in the "City" column and observe the suggested transformation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
